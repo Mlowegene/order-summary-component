@@ -1,0 +1,126 @@
+body {
+    background-color: hsl(225, 100%, 94%);
+    font-family: Red Hat Display;
+    font-size: 16px;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    /* padding: 10px; */
+    background-color: hsl(225, 100%, 98%);
+    width: 350px;
+    border-radius: 15px;
+
+}
+
+.image img {
+    border-radius: 15px 15px 0 0;
+    width:100%;
+}
+
+.desc {
+    text-align: center;
+    margin: 10px 10px;
+    
+}
+
+h3{
+    font-weight: 900;
+}
+
+p {
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+    margin: 15px 25px;
+    font-weight: 700;
+    /* border: 1px solid red; */
+
+}
+.order div{
+    display: flex;
+    align-items: center;
+}
+.order div img{
+    height: 40px;
+    margin: 0 10px ;
+}
+.heading span{
+display: block;
+/* font-size: 10px; */
+font-weight: 500;
+}
+.link {
+    padding: 15px;
+}
+.link:hover {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.btn {
+  
+  display: flex;
+  flex-direction: column;
+  
+  
+
+}
+
+.btn1 {
+    background-color: hsl(245, 75%, 52%); 
+    border-radius: 10px;
+    box-shadow: 3px 5px 15px hsl(224, 23%, 55%);
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    border: none;
+    margin: 10px 25px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn1:hover {
+    opacity: 0.6;
+}
+
+.btn2 {
+    border: none;
+    padding: 10px;
+    margin: 10px 10px;
+    background-color: hsl(225, 100%, 98%);
+    font-weight: 700;
+    color: hsl(224, 23%, 55%);
+}
+
+.btn2:hover {
+    color: hsl(224, 26%, 14%);
+}
+@media only screen and (max-width:375px){
+    .desc {
+        text-align: center;
+        margin: 5px 5px;
+    }
+    h3{
+        /* background-color: brown; */
+        font-weight: 100;
+        padding: 0;
+    }
+    p{
+      font-size: 14px;  
+    }
+}
