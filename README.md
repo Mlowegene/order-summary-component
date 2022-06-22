@@ -21,7 +21,7 @@ This is a solution to the [ORDER SUMMARY component challenge on Frontend Mentor]
 ### Screenshot
 
 
-/home/mlowe/Pictures/order.png
+![](https://github.com/Mlowegene/order-summary-component/blob/master/order1.png)
 
 
 ### Links
@@ -30,8 +30,7 @@ This is a solution to the [ORDER SUMMARY component challenge on Frontend Mentor]
 - Live Site URL: https://mlowegene.github.io/qr-code-component/
 
 ## My process
-   - Started to create HTML page stracture.
-   - Then i create CSS file for styling my page. 
+  
 
 ### Built with
 
