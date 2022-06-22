@@ -61,7 +61,6 @@ p {
 }
 .heading span{
 display: block;
-/* font-size: 10px; */
 font-weight: 500;
 }
 .link {
@@ -110,17 +109,45 @@ font-weight: 500;
 .btn2:hover {
     color: hsl(224, 26%, 14%);
 }
+
+/* =================Media queries============= */
+
 @media only screen and (max-width:375px){
+    .card {
+        /* padding: 10px; */
+        width: 250px;
+    }
+
     .desc {
         text-align: center;
-        margin: 5px 5px;
+        margin: 5px 10px;
+        
     }
-    h3{
-        /* background-color: brown; */
-        font-weight: 100;
-        padding: 0;
+
+    .order {
+        
+        margin: 10px 20px;
+        font-weight: 500;
+    
     }
-    p{
-      font-size: 14px;  
-    }
+
+    .heading {
+        font-weight: 500;
+        font-size: 12px;
+        }
+
+    .btn1 {
+            padding: 10px 5px;
+            margin: 5px 20px;
+            font-size: 10px;
+            font-weight: 500;
+        }
+
+        .btn2 {
+            padding: 5px;
+            margin: 5px 5px;
+            font-weight: 500;
+        
+        }
+
 }
